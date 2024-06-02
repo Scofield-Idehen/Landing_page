@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scofield Spy_cam</title>
+  <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+  <style>
+    /* Custom styles */
+    .banner {
+      position: relative;
+      height: 500px;
+      overflow: hidden;
+    }
+
+    .banner img {
+      width: 200%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.5); /* Fades the image */
+    }
+
+    .banner-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-brand">
+        <a href="#">Your Project</a>
+      </div>
+      <div class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Get Satrted</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="banner">
+      <img src="1.jpg" alt="Banner Image">
+      <div class="banner-content">
+        <h1>Welcome to Spycam</h1>
+        <p>The Spy Camera is a stealthy Python application that secretly captures images and videos using your computer's camera. With advanced motion detection capabilities, it 
+          automatically records when movement is detected, ensuring you never miss a moment. 
+          Schedule recordings, access footage remotely, and monitor your surroundings discreetly with this powerful yet user-friendly surveillance tool.</p>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <h2>Key Features</h2>
+        <div class="columns">
+          <div class="column col-4">
+            <h3>Stealth Mode</h3>
+            <p>The Spy Camera runs silently in the background, without displaying any visible windows or indicators, ensuring maximum discretion.</p>
+          </div>
+          <div class="column col-4">
+            <h3>Motion Detection</h3>
+            <p>Utilizing OpenCV's motion detection algorithms, 
+              the application can detect movement within the camera's field of view and automatically capture images or record videos when motion is detected.</p>
+          </div>
+          <div class="column col-4">
+            <h3>Remote Access</h3>
+            <p>The application includes a built-in web server or remote access functionality, 
+              allowing users to access the captured images or videos from remote locations using a web browser or dedicated client application.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Your Project</p>
+    </div>
+  </footer>
+</body>
+</html>
